@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- HTML Meta Tags -->
+  <title>Muhammad Ridwan Hakim</title>
+  <meta name="description" content="Tugas 4 JS - Muhammad Ridwan Hakim">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Muhammad Ridwan Hakim">
+  <meta itemprop="description" content="Tugas 4 JS - Muhammad Ridwan Hakim">
+  <meta itemprop="image" content="https://rescenic-js.netlify.app/images/profil.png">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://rescenic-js.netlify.app">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhammad Ridwan Hakim">
+  <meta property="og:description" content="Tugas 4 JS - Muhammad Ridwan Hakim">
+  <meta property="og:image" content="https://rescenic-js.netlify.app/images/profil.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Muhammad Ridwan Hakim">
+  <meta name="twitter:description" content="Tugas 4 JS - Muhammad Ridwan Hakim">
+  <meta name="twitter:image" content="https://rescenic-js.netlify.app/images/profil.png">
+
+  <!-- Meta Tags Generated via http://heymeta.com -->
+
+  <link rel="stylesheet" href="">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger"><h2>Tugas 4 JS - Muhammad Ridwan Hakim</h2></div>
+        <p class="text-warning bg-dark">
+          Dengan menggunakan conditional if else statement, buatlah program untuk mengkonversikan nilai angka ke nilai
+          huruf.</p>
+        <p class="text-warning bg-dark">Jika nilai 81-100 : Anda mendapatkan nilai A."</p>
+        <p class="text-warning bg-dark">Jika nilai 61-80 : Anda mendapatkan nilai B."</p>
+        <p class="text-warning bg-dark">Jika nilai 41-60 : Anda mendapatkan nilai C.</p>
+        <p class="text-warning bg-dark">Jika nilai 20-40 : Anda mendapatkan nilai D.</p>
+        <p class="text-warning bg-dark">Jika nilai < 20 : Anda mendapatkan nilai E.</p>
+
+        <form id="form" action="" onsubmit="return cekNilai() ">
+          <input type="number" id="nilai" min="0" max="100">
+          <button type="submit">Cek Nilai</button>
+          <p></p>
+          <span id="hasil"></span>
+        </form>
+      </div>
+      <div class="col-8"></div>
+
+      <script src="app.js" async defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
